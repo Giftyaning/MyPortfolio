@@ -56,7 +56,7 @@ header {
 }
 
 .section-title {
-    font-size: 30px;
+    font: 3em sans-serif;
     margin-bottom: 20px;
 }
 
@@ -64,6 +64,18 @@ header {
     font-size: 18px;
     margin-left: 0;
     right: 50px;
+}
+
+.role {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+    padding: 5px;
+    margin-left: 1em;
+    font: 3em sans-serif;
 }
 
 /* Project styles */
